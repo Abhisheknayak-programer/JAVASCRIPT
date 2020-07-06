@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERIES IN CSS</title>
+</head>
+<style>
+    .container {
+        border: 2px solid rgb(23, 24, 23);
+    }
+
+
+
+
+    @media only screen and (max-width: 500px) {
+
+        #box1 {
+            border: 2px solid skyblue;
+            background-color: lawngreen;
+        }
+
+    }
+
+
+    @media only screen and (min-width: 500px) and (max-width: 799px) {
+
+        #box2 {
+            border: 2px solid tomato;
+            background-color: lightcyan;
+        }
+
+    }
+
+    @media only screen and (min-width: 800px) and (max-width: 1100px) {
+
+        #box3 {
+            border: 2px solid fuchsia;
+            background-color: rgb(230, 217, 217);
+        }
+
+    }
+
+
+
+    @media only screen and (min-width: 1100px) {
+        #box4 {
+            border: 2px solid khaki;
+            background-color: blue;
+        }
+    }
+
+
+
+    .box {
+        font-size: 20px;
+    }
+</style>
+
+<body>
+    <header class="container">
+        <ul>
+            <li class="box" id="box1">I AM IPHONE</li>
+            <li class="box" id="box2">I AM MOBILE</li>
+            <li class="box" id="box3">I AM TABLET</li>
+            <li class="box" id="box4">I AM COMPUTER/LAPTOP</li>
+        </ul>
+    </header>
+</body>
+
+</html>

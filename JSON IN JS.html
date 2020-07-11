@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING JSON IN JS</title>
+</head>
+<body>
+
+
+    <script>
+        let object = {
+            name:"Abhishek Nayak",
+            roll_no:41,
+            blog:"Tech Today",
+            channel:"Technical Abhishek"
+        }
+        console.log(object);
+
+        let object_str = JSON.stringify(object);                 /////IMPORTANT
+        console.log(object_str);
+
+
+
+        object_str = object_str.replace('Technical Abhishek','TechY group')
+        console.log(object_str);
+
+        FINDING_CHAR = object_str.charAt(12);
+        console.log(FINDING_CHAR);
+
+
+        
+        let new_object = JSON.parse(object_str);                /////IMPORTANT
+        console.log(new_object);
+
+
+
+    </script>
+
+
+</body>
+</html>

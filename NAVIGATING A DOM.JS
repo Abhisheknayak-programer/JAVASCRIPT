@@ -1,7 +1,7 @@
-//                                          NAVIGATION IN DOM
+//                   NAVIGATION IN DOM
 
 
-//                                    GETTING Element BY USING ID 
+//              GETTING Element BY USING ID 
 
 
 // let container = document.getElementById('sahil');
@@ -14,7 +14,7 @@
 
 
 
-//                                    GETTING Element BY USING CLASS
+//    GETTING Element BY USING CLASS
 
 
 // let container2 = document.getElementsByClassName('container');
@@ -27,7 +27,7 @@
 
 
 
-//                                    GETTING Element BY USING SELECTORS
+//        GETTING Element BY USING SELECTORS
 
 
 
@@ -46,7 +46,7 @@
 
 
 
-//                                    GETTING Element BY USING SELECTOR ALL
+//     GETTING Element BY USING SELECTOR ALL
 
 
 

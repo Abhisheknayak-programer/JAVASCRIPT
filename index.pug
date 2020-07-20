@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>#{title}</title>
-    
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     style
         include ..\css_edits_for_backend\index.css
+    
 
 </head>
 <body>
@@ -27,5 +28,22 @@
         <h1 id="h_one">#{content} </h1>
         <h1 id="h_two">#{message}</h1>
     </div>
+
+
+    
+        <form action="/" method="POST" id="contact">
+        <input type="text" name="name" id="define1" placeholder="Enter Your Name">
+        <input type="text" name="email" id="define2" placeholder="Enter Your Email">
+        <input type="text" name="gender" id="define3" placeholder="Enter Your Gender">
+        <input type="text" name="number" id="define4" placeholder="Enter Your Number">
+        <!-- <textarea name="Address"  id="Address" placeholder="Enter Your Address" cols="30" rows="10"></textarea> -->
+        <textarea name="more_about" id="more" placeholder="More About Your Choices" cols="20" rows="10"></textarea>
+
+        <button id="btn">SUBMIT</button>
+    </form>
+   
+
+
+
 </body>
 </html>

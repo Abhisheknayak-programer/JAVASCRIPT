@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: rgb(21, 196, 158);
+    width: 100%;
+}
+
+ul li{
+    width: 100%;
+    background-color: #f5f3f3;
+    height: 3rem;
+    font-weight: bold;
+    list-style: none;
+    line-height: 3rem;
+    margin: 5px 0;
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none; 
+    color: black;
+    margin:auto;
+}

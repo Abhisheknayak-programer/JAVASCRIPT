@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #eee;
+}
+
+#container{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container #card{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    user-select: none;
+}
+
+img,canvas{
+    border-radius: 10px;
+}
+
+#card:active{
+    transform: scale(1.05);
+}

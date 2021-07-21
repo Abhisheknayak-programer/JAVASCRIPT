@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch Card</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+    <script src="./wScratchPad.min.js"></script>
+</head>
+<body>
+
+    <div id="container">
+        <div id="card">
+
+        </div>
+    </div>
+
+
+    <script>
+        let Random__num = Math.floor(Math.random() * 4) + 1;
+            $('#card').wScratchPad({
+            size        : 100,          // The size of the brush/scratch.
+            bg          : `IMG/Gpay_Card ${Random__num}.jpg`,  // Background (image path or hex color).
+            fg          : 'IMG/front.jpg',  // Foreground (image path or hex color).
+            realtime    : true,       // Calculates percentage in realitime.
+            scratchDown : null,       // Set scratchDown callback.
+            scratchUp   : null,       // Set scratchUp callback.
+            scratchMove : null,       // Set scratcMove callback.
+            cursor      : 'pointer' // Set cursor.
+        });
+    </script>
+    
+</body>
+</html>

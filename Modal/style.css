@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: sans-serif;
+  padding: 5rem 10rem 5rem 10rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #4c6ef5;
+  color: #fff;
+  border-radius: 1.5rem;
+}
+.Modal__section {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  padding: 2rem;
+  width: 30%;
+  margin: auto;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+}
+
+.modalActive {
+  display: none;
+}
+
+.Modal__section img {
+  margin-top: 0.5rem;
+}
+
+.Modal__section p {
+  color: #757575;
+  line-height: 1.5;
+}
+
+.CrossDiv {
+  color: #757575;
+  position: absolute;
+  font-size: 1.6rem;
+  right: 10px;
+  top: 6px;
+  cursor: pointer;
+}
